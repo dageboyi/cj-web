@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 const interce = axios.create({
-    baseURL: 'https://cj-interview-server.onrender.com',
-    timeout: 5000
+    baseURL: 'https://cj-interview-server.onrender.com'
 })
 
 interce.interceptors.request.use((config) => {
