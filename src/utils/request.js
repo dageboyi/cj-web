@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const interce = axios.create({
-    baseURL: '/api',
+    baseURL: 'https://cj-interview-server.onrender.com',
     timeout: 5000
 })
 
